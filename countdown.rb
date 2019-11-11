@@ -1,4 +1,4 @@
-def countdown(x=10)
+def countdown(x= 10)
  while x > 0 do
  puts "#{x} SECOND(S)!"
  x -=1
@@ -14,3 +14,4 @@ def countdown_with_sleep(x=10)
  end
   return "HAPPY NEW YEAR!"
 end
+# finally got this to work and it was because I had Number in the #{x } spot need to watch for little things.
